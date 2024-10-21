@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dw_exer_stg_views
+    database: sonam-sandbox-356306
+    schema: dw_exer_stg_views
+    tables:
+      - name: sms_record
+        description: view from same project based on a table in learn-prd
